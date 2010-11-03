@@ -1,0 +1,13 @@
+Pet Plugin for Minecraft using Hey0 API
+---------------------------------------
+
+Goals:
+	Spawn a pet mob that you can interact with (feed, pet).
+	Pets have names, and their stats get stored.
+	Pets will have happiness and hunger stats, as well as normal mob health.
+
+Status:
+	Nothing is working yet.
+
+
+
