@@ -9,6 +9,8 @@ public class PetPlugin extends Plugin {
 
 	public void initialize() {
 		/* Add in listener overrides here */
+		etc.getLoader().addListener(PluginLoader.Hook.COMMAND, listener, this, PetListener.Priority.MEDIUM);
+		etc.getLoader().addListener(PluginLoader.Hook.PLAYER_MOVE, listener, this, PetListener.Priority.MEDIUM);
 	}
 
 	public void enable() {
